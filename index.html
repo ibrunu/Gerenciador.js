@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas - JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciador de Tarefas com JavaScript</h1>
+        
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Digite uma nova tarefa...">
+            <button id="addTaskBtn">Adicionar</button>
+        </div>
+        
+        <div class="tasks-container" id="tasksContainer">
+        
+        </div>
+        
+        <div class="output">
+            <h3>Log de Atividades:</h3>
+            <div class="output-content" id="output"></div>
+        </div>
+        
+        <div class="instructions">
+            <h3>Como usar:</h3>
+            <ul>
+                <li>Digite uma tarefa e clique em "Adicionar" para incluir na lista</li>
+                <li>Clique em "Concluir" para marcar uma tarefa como feita</li>
+                <li>Clique em "Editar" para modificar uma tarefa</li>
+                <li>Clique em "Excluir" para remover uma tarefa</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
